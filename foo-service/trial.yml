@@ -1,3 +1,3 @@
 steps:
  - label: "test mono repo"
-   command: "echo test mono repo extra"
+   command: "echo This is the test mono repo extra"
