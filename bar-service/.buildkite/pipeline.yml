@@ -1,0 +1,3 @@
+steps:
+ - command: "echo running pipeline on mono repo"
+   label: "running bar-service change"
