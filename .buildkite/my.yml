@@ -1,0 +1,8 @@
+ steps: 
+   - command: echo "The retry is $$RETRY_COUNT"
+     env:
+       - RETRY_COUNT: $BUILDKITE_RETRY_COUNT
+
+notify:
+    - slack: "#stephanie_test"
+      if: build.env("$RETRY_COUNT") !="0"
