@@ -30,6 +30,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+#watchFolders to ignore
+bar-service
+
 # End of https://www.gitignore.io/api/osx
 .env
 .envrc
